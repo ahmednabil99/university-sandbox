@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand ml-3" href="/">University</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item <%= activePath === '/students' ? 'active' : '' %>">
+                <a class="nav-link" href="/students">Students<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item <%= activePath === '/courses' ? 'active' : '' %>">
+                <a class="nav-link" href="/courses">Courses</a>
+            </li>
+        </ul>
+    </div>
+</nav>
